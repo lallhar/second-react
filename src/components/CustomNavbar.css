@@ -1,39 +1,31 @@
-nav.navbar, .navbar-default {
-    background-color: #2892D7 !important;
-  }
 
-  .navbar-default {
-    background-image: none;
-    border: none;
-    border-radius: 0;
-  }
 
-  .navbar-default .navbar-nav > li > a {
-    color: white;
-  }
+.navbar Button{
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Gotham SSm',sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .091em;
+  line-height: 1em;
+  border-style: solid;
+  border-width: 1.1px;
+  border-radius: 0;
+  padding: 1.6em 2.9em;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  transition: opacity 300ms cubic-bezier(.694,0,.335,1),background-color 300ms cubic-bezier(.694,0,.335,1),color 300ms cubic-bezier(.694,0,.335,1);
+  color: #000;
+  background-color: #000;
+  padding-bottom: 1.9em;
+  left: 690px;
+  position: relative;
+}
 
-  .navbar-default .navbar-brand {
-    color: white;
-  }
-
-  .navbar-default .navbar-toggle {
-    border-color: white;
-  }
-
-  .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-  }
-
-  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-  }
-
-  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: white;
-    background-color: transparent;
-  }
-
-  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color: transparent;
-  }
+ .place {
+  position: relative;
+  left: 250px;
+}
